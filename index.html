@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Agent Patterns — an interactive catalog of autonomous multi-agent system design patterns: orchestration loops, MCP tooling, external connectors, and resilience architectures." />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Agent Patterns — Autonomous Multi-Agent Architecture Catalog</title>
+    <script>
+      // Set theme before paint to avoid flash-of-wrong-theme.
+      (function () {
+        var stored = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var dark = stored ? stored === "dark" : prefersDark;
+        document.documentElement.classList.toggle("dark", dark);
+      })();
+    </script>
+  </head>
+  <body class="bg-canvas-light text-slate-800 dark:bg-canvas-dark dark:text-slate-200 antialiased">
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
