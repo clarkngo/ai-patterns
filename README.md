@@ -102,3 +102,7 @@ Pushing to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/de
 ## Adding a new pattern
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full pattern submission guide.
+
+## License
+
+[MIT](LICENSE)

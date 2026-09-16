@@ -119,7 +119,7 @@ const footer = h(
     h(
       "a",
       {
-        href: "https://github.com/",
+        href: "https://github.com/clarkngo/ai-patterns",
         class: "text-accent-600 dark:text-accent-400 hover:underline",
       },
       ["Contribute a pattern →"]

@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "license": "MIT",
   "description": "An interactive catalog of autonomous multi-agent system design patterns.",
   "scripts": {
     "dev": "vite",
