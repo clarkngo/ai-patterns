@@ -115,15 +115,28 @@ const footer = h(
       "border-t border-slate-200 dark:border-slate-800 mt-10 py-8 text-center text-sm text-slate-400",
   },
   [
-    "Agent Patterns — an open catalog of autonomous multi-agent architectures. ",
-    h(
-      "a",
-      {
-        href: "https://github.com/clarkngo/ai-patterns",
-        class: "text-accent-600 dark:text-accent-400 hover:underline",
-      },
-      ["Contribute a pattern →"]
-    ),
+    h("p", {}, [
+      "Agent Patterns — an open catalog of autonomous multi-agent architectures. ",
+      h(
+        "a",
+        {
+          href: "https://github.com/clarkngo/ai-patterns",
+          class: "text-accent-600 dark:text-accent-400 hover:underline",
+        },
+        ["Contribute a pattern →"]
+      ),
+    ]),
+    h("p", { class: "mt-2" }, [
+      "Built by ",
+      h(
+        "a",
+        {
+          href: "https://github.com/clarkngo",
+          class: "text-accent-600 dark:text-accent-400 hover:underline",
+        },
+        ["Clark Ngo"]
+      ),
+    ]),
   ]
 );
 
